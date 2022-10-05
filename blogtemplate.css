@@ -1,0 +1,101 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 10px;
+}
+
+
+#pt {
+  font-family: "Brush Script MT", cursive;
+  font-size: 50px;
+  background-color: #f5b2dd;
+  text-align: center;
+  padding: 20px;
+}
+
+#pst {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #7a336b;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2d4ec;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ecc6eb;
+  color: black;
+}
+
+.dau{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+
+#wt{
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: 40px; 
+}
+
+#wst{
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+}
+
+.ct{
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  border: 1px solid blue;
+}
+.column.leftcolumn {
+  float: left;
+}
+.column.rightcolumn{
+  float: right;
+}
+/* Left and right column */
+.column.leftcolumn, .column.rightcolumn {
+  width: 20%;
+}
+
+/* Middle column */
+.column.middlecolumn {
+  width: 40%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.leftcolumn,
+  .column.middlecolumn,
+  .column.rightcolumn {
+    width: 100%;
+  }
+}
+
+
+/*https://www.w3schools.com/css/tryit.asp?filename=trycss_website_layout_grid2 */
